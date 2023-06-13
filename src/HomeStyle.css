@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-title{
+    background-color: bisque;
+    padding: 15px;
+}
+.home-title h1{
+    padding: 10px 0;
+    font-size: 26px;
+}
+.home-content img{
+    /* width:50%; */
+    height: 400px;
+}
+.home-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around !important;
+    /* height: 70vh; */
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+.home-thiru p{
+    font-size: 17px;
+    line-height: 30px;
+    text-align: left;
+    padding: 10px;
+    
+}
+.home-thiru{
+    /* background-color: antiquewhite; */
+    height: 70%;
+    width: 50%;
+    text-align: center;
+}
+.kural01{
+    margin-top: 50px;
+}
+.kural-content h1{
+    padding: 30px 10px;
+    font-size: 40px;
+}
+
+.kural01 h1{
+    padding: 30px 0 15px 0;
+}
+.kural01 p{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+.kural01 ul{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.kural01 ul li{
+    padding: 20px;
+    text-align: left;
+    list-style: none;
+    font-size: 17px;
+    line-height: 25px;
+}
+span{
+    color: olive;
+    font-weight: 600;
+}
+.kural01 button{
+    font-size: 20px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin:20px;
+    background-color: lightseagreen;
+    box-shadow: 2px 5px 3px 3px rgba(0,0,0,0.4);
+}
+.kural01 button:hover{
+    background-color: blanchedalmond;
+}
+@media screen and (min-width:300px) and (max-width:450px){
+    .home-thiru p{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}

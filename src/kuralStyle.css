@@ -1,0 +1,87 @@
+.kural{
+    display: flex !important;
+    justify-content: space-evenly;
+    align-items: center;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    /* margin-top: -100px; */
+    /* margin-left: 100px; */
+   
+}
+.new{
+    background-image: url('https://tse1.mm.bing.net/th?id=OIP.0gveq3iUuo3zwFEGY6N8YgHaEo&pid=Api&P=0&h=180');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+}
+.container h3{
+    text-align: left;
+    padding: 10px 0;
+    color: olive;
+    
+}
+.container3 h2{
+    text-align: left;
+    padding: 20px 0;
+    color:olive;
+}
+.container3{
+    width: 50%;
+    /* background-color: antiquewhite; */
+    padding: 30px;
+}
+.container3 p{
+    text-align: left;
+    padding-left: 30px;
+    
+}
+.container4 p{
+    line-height: 25px;
+    font-size: 15px;
+}
+.container5 p{
+    font-size: 18px;
+}
+
+.container{
+    /* height: 50vh; */
+}
+
+.btn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* margin-top: -70px; */
+   flex-wrap: wrap;
+   padding: 35px 0;
+   margin-left: -100px;
+}
+.btn button{
+    font-size: 18px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    box-shadow: 2px 5px 3px 3px rgba(0,0,0,0.4);
+}
+.btn button:hover{
+    background-color: blanchedalmond;
+}
+@media screen and (min-width:300px) and (max-width:450px) {
+    .container3{
+        width: 100%;
+        margin-top: -10px;
+    }
+    .btn{
+        margin-top: -10px;
+        margin-left: 0;
+    }
+    .btn button{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+}
+    
+    
+    
+
